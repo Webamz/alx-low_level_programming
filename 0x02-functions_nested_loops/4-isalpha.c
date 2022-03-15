@@ -2,7 +2,7 @@
 /**
  *_isalpha - check main
  *@c: input character
- *Description: function returns 1 if character is a letter, lowercase or uppercase
+ *Description: function returns 1 a letter, lowercase or uppercase
  *Return:1 or 0
  */
 

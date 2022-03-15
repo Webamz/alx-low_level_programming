@@ -3,7 +3,7 @@
 /**
  * print_to_98 - check code
  * @n: int input
- * Description: function prints all natural numbers from n to 98 followed by a new line
+ * Description: function prints natural numbers from n to 98
  * Return: none
  */
 void print_to_98(int n)
