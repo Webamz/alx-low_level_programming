@@ -7,19 +7,19 @@
  * Return: pointer the to beginning of the located substring
  * or NULL if the substring is not found
  */
-char *_strstr(char *h, char *n)
+char *_strstr(char *haystack, char *needle)
 {
 	int i, j;
 
-	for (i = 0; h[i] != '\0'; i++)
+	for (i = 0; haystack[i] != '\0'; i++)
 	{
-		for (j = 0; n[j] != '\0'; j++)
+		for (j = 0; needle[j] != '\0'; j++)
 		{
-			if (h[i + j] != n[j])
+			if (haystack[i + j] != needle[j])
 				break;
 		}
-		if (!n[j])
-			return (&h[i]);
+		if (!needle[j])
+			return (&haystack[i]);
 	}
 	return (NULL);
 }
