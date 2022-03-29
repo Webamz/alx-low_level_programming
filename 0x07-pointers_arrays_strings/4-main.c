@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-	chr *s = "hello, world";
+	char *s = "hello, world";
 	char *f = "world";
 	char *t;
 
